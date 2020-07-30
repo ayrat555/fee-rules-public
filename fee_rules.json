@@ -1,0 +1,24 @@
+{
+  "1": {
+    "0x0000000000000000000000000000000000000000": {
+      "type": "fixed",
+      "symbol": "ETH",
+      "subunit_to_unit": 1000000000000000000,
+      "pegged_amount": null,
+      "contract_address": "0x0000000000000000000000000000000000000000",
+      "pegged_currency": null,
+      "pegged_subunit_to_unit": null,
+      "amount": 75
+    },
+    "0xb1952c4e36d153a49eccc01a4d93b9ecbabb7208": {
+      "type": "pegged",
+      "symbol": "OMG",
+      "subunit_to_unit": 1000000000000000000,
+      "pegged_amount": 0.33,
+      "pegged_currency": "eth_gas",
+      "contract_address": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07",
+      "pegged_subunit_to_unit": 1000000000000000000,
+      "amount": null
+    }
+  }
+}
