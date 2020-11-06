@@ -3,6 +3,8 @@
     "0x0000000000000000000000000000000000000000": {
       "type": "fixed",
       "symbol": "ETH",
+      "pair": "eth_eth",
+      "pair_reversed": false,
       "subunit_to_unit": 1000000000000000000,
       "pegged_amount": null,
       "contract_address": "0x0000000000000000000000000000000000000000",
@@ -13,6 +15,8 @@
     "0xb1952c4e36d153a49eccc01a4d93b9ecbabb7208": {
       "type": "pegged",
       "symbol": "OMG",
+      "pair": "omg_eth",
+      "pair_reversed": false,
       "subunit_to_unit": 1000000000000000000,
       "pegged_amount": 0.33,
       "pegged_currency": "eth_gas",
